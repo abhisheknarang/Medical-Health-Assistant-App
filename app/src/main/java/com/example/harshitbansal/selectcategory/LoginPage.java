@@ -44,6 +44,18 @@ public class LoginPage extends AppCompatActivity {
         else if(password.equals(StoredPassword))
         {
             Toast.makeText(getApplicationContext(), username + " Login Successfully", Toast.LENGTH_LONG).show();
+             final ProgressDialog progress = new ProgressDialog(this);
+            progress.setTitle("Signing In");
+            progress.setMessage("Loading.Please Wait...");
+            progress.show();
+            Runnable progressRunnable = new Runnable() {
+                @Override
+                public void run() {
+                    progress.cancel();
+                }
+            };
+            Handler pdCanceller = new Handler();
+            pdCanceller.postDelayed(progressRunnable, 3000);
             Intent i = new Intent(LoginPage.this, slider.class);
             startActivity(i);
         }
