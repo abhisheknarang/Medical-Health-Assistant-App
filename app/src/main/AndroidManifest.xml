@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harshitbansal.selectcategory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Checkup+"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ayurveda"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
+         <activity
+            android:name=".paediatrics"
+             android:label=" Doctors"
+             android:parentActivityName=".MainActivity">
+             <meta-data
+                 android:name="android.support.PARENT_ACTIVITY"
+                 android:value=".MainActivity"/>
+         </activity>
+        <activity
+            android:name=".dental"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".derma"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".diab"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".diet"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ent"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ophtal"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".gas"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".physician"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".cardio"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".neuro"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".physio"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".urology"
+            android:label="Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ortho"
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="Login Page" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up"
+            android:parentActivityName=".LoginPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginPage"/>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".slider">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".slider"/>
+        </activity>
+        <activity
+            android:name=".UserBase"
+            android:label="User Base" />
+        <activity android:name=".checkup" />
+        <activity android:name=".aboutus"
+            android:parentActivityName=".slider">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".slider"/>
+        </activity>
+
+        <activity
+            android:name=".slider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".emergency1"
+            android:parentActivityName=".slider">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".slider"/>
+        </activity>
+
+        <activity android:name=".BaseHospital"
+            android:label="Select Region"
+            android:parentActivityName=".slider">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".slider"/>
+        </activity>
+        <activity
+            android:name=".NorthActivity"
+            android:label="@string/category_north"
+            android:parentActivityName=".BaseHospital">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseHospital" />
+        </activity>
+        <activity
+            android:name=".SouthActivity"
+            android:label="@string/category_south"
+            android:parentActivityName=".BaseHospital">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseHospital" />
+        </activity>
+        <activity
+            android:name=".EastActivity"
+            android:label="@string/category_east"
+            android:parentActivityName=".BaseHospital">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseHospital" />
+        </activity>
+        <activity
+            android:name=".WestActivity"
+            android:label="@string/category_west"
+            android:parentActivityName=".BaseHospital">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseHospital" />
+        </activity>
+    </application>
+
+
+</manifest>

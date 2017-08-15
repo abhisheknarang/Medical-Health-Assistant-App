@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rename"
+    tools:context="com.example.harshitbansal.selectcategory.emergency1">
+    <ImageButton
+        android:id="@+id/call"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginStart="104dp"
+        android:background="@android:drawable/stat_sys_phone_call"
+        android:backgroundTint="#ff0000"
+        android:onClick="callno"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/launchmap"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/launchmap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="process"
+        app:srcCompat="@android:drawable/ic_menu_mylocation"
+        android:layout_marginBottom="169dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/call"
+        android:layout_alignStart="@+id/call" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/call"
+        android:layout_marginBottom="18dp"
+        android:layout_toEndOf="@+id/call"
+        android:layout_toRightOf="@+id/call"
+        android:text="CALL"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Hospital"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/call"
+        android:layout_toRightOf="@+id/launchmap"
+        android:layout_toEndOf="@+id/launchmap" />
+
+</RelativeLayout>

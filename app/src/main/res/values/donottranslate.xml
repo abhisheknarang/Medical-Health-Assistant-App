@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Miwok translation for color red -->
+    <string name="miwok_color_red">Dilshad Garden</string>
+
+    <!-- Miwok translation for color dusty yellow -->
+    <string name="miwok_color_dusty_yellow">Dilshad Garden</string>
+
+    <!-- Miwok translation for color mustard yellow -->
+    <string name="miwok_color_mustard_yellow">Mayur Vihar Phase-II</string>
+
+    <!-- Miwok translation for color green -->
+    <string name="miwok_color_green"> Karkardooma</string>
+
+    <!-- Miwok translation for color brown -->
+    <string name="miwok_color_brown">Tahirpur</string>
+
+    <!-- Miwok translation for color black -->
+    <string name="miwok_color_black">Patparganj</string>
+
+    <!-- Miwok translation for color gray -->
+    <string name="miwok_color_gray">Karkardooma</string>
+
+    <!-- Miwok translation for color white -->
+    <string name="miwok_color_white">Mayur Vihar Phase 1</string>
+
+    <string name="miwok_color_bas">Preet Vihar</string>
+
+    <string name="miwok_color_bas2">Gagan Vihar</string>
+
+
+    <!-- Miwok translation for father -->
+    <string name="miwok_family_father">South Extension</string>
+
+    <!-- Miwok translation for mother -->
+    <string name="miwok_family_mother">Ansari Nagar</string>
+
+    <!-- Miwok translation for son -->
+    <string name="miwok_family_son">Subroto Park</string>
+
+    <!-- Miwok translation for daughter -->
+    <string name="miwok_family_daughter">Vasant Kunj</string>
+
+    <!-- Miwok translation for older brother -->
+    <string name="miwok_family_older_brother">Malviya Nagar</string>
+
+    <!-- Miwok translation for younger brother -->
+    <string name="miwok_family_younger_brother">Saket</string>
+
+    <!-- Miwok translation for older sister -->
+    <string name="miwok_family_older_sister">Okhla</string>
+
+    <!-- Miwok translation for younger sister -->
+    <string name="miwok_family_younger_sister">Nehru Nagar</string>
+
+    <!-- Miwok translation for grandmother -->
+    <string name="miwok_family_grandmother">Lajpat Nagar</string>
+
+    <!-- Miwok translation for grandfather -->
+    <string name="miwok_family_grandfather">Sheikh Sarai II</string>
+
+    <!-- Miwok translation for number one -->
+    <string name="miwok_number_one">Shalimar Bagh</string>
+
+    <!-- Miwok translation for number two -->
+    <string name="miwok_number_two">Vasundhara Enclave</string>
+
+    <!-- Miwok translation for number three -->
+    <string name="miwok_number_three">Shalimar Bagh</string>
+
+    <!-- Miwok translation for number four -->
+    <string name="miwok_number_four">Tis Hazari</string>
+
+    <!-- Miwok translation for number five -->
+    <string name="miwok_number_five">Civil Lines</string>
+
+    <!-- Miwok translation for number six -->
+    <string name="miwok_number_six">Moti Nagar</string>
+
+    <!-- Miwok translation for number seven -->
+    <string name="miwok_number_seven">Rohini</string>
+
+    <!-- Miwok translation for number eight -->
+    <string name="miwok_number_eight">Pitampura</string>
+
+    <!-- Miwok translation for number nine -->
+    <string name="miwok_number_nine">Bhavana Industrial Area</string>
+
+    <!-- Miwok translation for number ten -->
+    <string name="miwok_number_ten">Mangolpuri</string>
+
+    <!-- Miwok translation for phrase "Where are you going?" -->
+    <string name="miwok_phrase_where_are_you_going">Hari Nagar</string>
+
+    <!-- Miwok translation for phrase "What is your name?" -->
+    <string name="miwok_phrase_what_is_your_name">Lawrence Road</string>
+
+    <!-- Miwok translation for phrase "My name is..." -->
+    <string name="miwok_phrase_my_name_is"> Raghubir Nagar</string>
+
+    <!-- Miwok translation for phrase "How are you feeling?" -->
+    <string name="miwok_phrase_how_are_you_feeling">Jaffarpur Kalan</string>
+
+    <!-- Miwok translation for phrase "I'm feeling good." -->
+    <string name="miwok_phrase_im_feeling_good">Narela</string>
+
+    <!-- Miwok translation for phrase "Are you coming?" -->
+    <string name="miwok_phrase_are_you_coming">Paschim Vihar</string>
+
+    <!-- Miwok translation for phrase "Yes, I'm coming." -->
+    <string name="miwok_phrase_yes_im_coming">West Punjabi Bagh</string>
+
+    <!-- Miwok translation for phrase "I'm coming." -->
+    <string name="miwok_phrase_im_coming">Rohini</string>
+
+    <!-- Miwok translation for phrase "Let's go." -->
+    <string name="miwok_phrase_lets_go">Ashok Vihar</string>
+
+    <!-- Miwok translation for phrase "Come here." -->
+    <string name="miwok_phrase_come_here">Shadipur</string>
+</resources>

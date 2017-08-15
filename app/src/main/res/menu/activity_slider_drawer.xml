@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_menu_warn"
+            android:title="Emergency" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_menu_hospital"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/nav_hospitals"
+            android:icon="@drawable/ic_menu_build"
+            android:title="Hospitals" />
+        <item
+            android:id="@+id/nav_directions"
+            android:icon="@drawable/ic_menu_directions"
+            android:title="Nearby Medical Stores" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_menu_phone"
+            android:title="Contact Us" />
+    </group>
+</menu>

@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">Select Category</string>
+    <string name="title_activity_user_base">UserBase</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_slider">slider</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_west">West</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_east">East</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_north">North</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_south">South</string>
+
+    <!-- Vocabulary word for the color red [CHAR LIMIT=20] -->
+    <string name="color_red">Guru Teg Bahadur Hospital</string>
+
+    <!-- Vocabulary word for the color dusty yellow [CHAR LIMIT=20] -->
+    <string name="color_dusty_yellow">Delhi State Cancer Institution</string>
+
+    <!-- Vocabulary word for the color mustard yellow [CHAR LIMIT=20] -->
+    <string name="color_mustard_yellow">Lal Bahadur Shastri Hospital</string>
+
+    <!-- Vocabulary word for the color green [CHAR LIMIT=20] -->
+    <string name="color_green">Dr. Hedgewar Arogya Sansthan</string>
+
+    <!-- Vocabulary word for the color brown [CHAR LIMIT=20] -->
+    <string name="color_brown">Rajiv Gandhi Super Speciality Hospital</string>
+
+    <!-- Vocabulary word for the color black [CHAR LIMIT=20] -->
+    <string name="color_black">Max Superspecialty Hospital</string>
+
+    <!-- Vocabulary word for the color gray [CHAR LIMIT=20] -->
+    <string name="color_gray">Shanti Mukund Hospital</string>
+
+    <!-- Vocabulary word for the color white [CHAR LIMIT=20] -->
+    <string name="color_white">Jeevan Anmol Hospital</string>
+
+    <string name="color_bas">Metro Hospital and Cancer Institute</string>
+
+    <string name="color_bas2">RG Stone Clinic</string>
+
+    <!-- Vocabulary word for the number one [CHAR LIMIT=20] -->
+    <string name="number_one">Max Hospital</string>
+
+    <!-- Vocabulary word for the number two [CHAR LIMIT=20] -->
+    <string name="number_two">Dharamshila Cancer Hospital and Research Centre</string>
+
+    <!-- Vocabulary word for the number three [CHAR LIMIT=20] -->
+    <string name="number_three">Fortis Hospital</string>
+
+    <!-- Vocabulary word for the number four [CHAR LIMIT=20] -->
+    <string name="number_four">St Stephen Hospital</string>
+
+    <!-- Vocabulary word for the number five [CHAR LIMIT=20] -->
+    <string name="number_five">Sant Parmanand Hospital</string>
+
+    <!-- Vocabulary word for the number six [CHAR LIMIT=20] -->
+    <string name="number_six">Acharyaashree Bhikshu Hospital</string>
+
+    <!-- Vocabulary word for the number seven [CHAR LIMIT=20] -->
+    <string name="number_seven">Baba Saheb Ambedkar Hospital</string>
+
+    <!-- Vocabulary word for the number eight [CHAR LIMIT=20] -->
+    <string name="number_eight">Bhagwan Mahaveer Hospital</string>
+
+    <!-- Vocabulary word for the number nine [CHAR LIMIT=20] -->
+    <string name="number_nine">Maharishi Balmiki Hospital</string>
+
+    <!-- Vocabulary word for the number ten [CHAR LIMIT=20] -->
+    <string name="number_ten">Sanjay Gandhi Memorial Hospital</string>
+
+    <!-- Vocabulary word for the father family member [CHAR LIMIT=20] -->
+    <string name="family_father">All India Institute of Medical Sciences</string>
+
+    <!-- Vocabulary word for the mother family member [CHAR LIMIT=20] -->
+    <string name="family_mother">Safdarjung Hospital</string>
+
+    <!-- Vocabulary word for the son family member [CHAR LIMIT=20] -->
+    <string name="family_son">Army Research and Referral Hospital</string>
+
+    <!-- Vocabulary word for the daughter family member [CHAR LIMIT=20] -->
+    <string name="family_daughter">Institute of Liver and Biliary Sciences (I.L.B.S.)</string>
+
+    <!-- Vocabulary word for the older brother family member [CHAR LIMIT=20] -->
+    <string name="family_older_brother">Pt. Madan Mohan Malviya Hospital</string>
+
+    <!-- Vocabulary word for the younger brother family member [CHAR LIMIT=20] -->
+    <string name="family_younger_brother">Max Hospital</string>
+
+    <!-- Vocabulary word for the older sister family member [CHAR LIMIT=20] -->
+    <string name="family_older_sister">Holy Family Hospital</string>
+
+    <!-- Vocabulary word for the younger sister family member [CHAR LIMIT=20] -->
+    <string name="family_younger_sister">VIMHANS-Mental Health and Neurosciences</string>
+
+    <!-- Vocabulary word for the grandmother family member [CHAR LIMIT=20] -->
+    <string name="family_grandmother">Metro Hospital</string>
+
+    <!-- Vocabulary word for the grandfather family member [CHAR LIMIT=20] -->
+    <string name="family_grandfather">Pushpawati Singhania Research Institute</string>
+
+    <!-- Vocabulary phrase for "Where are you going?" [CHAR LIMIT=30] -->
+    <string name="phrase_where_are_you_going">Deen Dayal Upadhyay Hospital</string>
+
+    <!-- Vocabulary phrase for "What is your name?" [CHAR LIMIT=20] -->
+    <string name="phrase_what_is_your_name">Attar Sain Jain Hospital</string>
+
+    <!-- Vocabulary phrase for "My name is..." [CHAR LIMIT=20] -->
+    <string name="phrase_my_name_is">Guru Govind Singh Govt. Hospital</string>
+
+    <!-- Vocabulary phrase for "How are you feeling?" [CHAR LIMIT=20] -->
+    <string name="phrase_how_are_you_feeling">Rao Tula Ram Memorial Hospital</string>
+
+    <!-- Vocabulary phrase for "I'm feeling good." [CHAR LIMIT=20] -->
+    <string name="phrase_im_feeling_good">Satyawadi Raja Harish Chandra Hospital</string>
+
+    <!-- Vocabulary phrase for "Are you coming?" [CHAR LIMIT=20] -->
+    <string name="phrase_are_you_coming">Shri Balaji Action Medical Institute</string>
+
+    <!-- Vocabulary phrase for "Yes, I'm coming." [CHAR LIMIT=20] -->
+    <string name="phrase_yes_im_coming">Maharaja Agarsen Hospital</string>
+
+    <!-- Vocabulary phrase for "I'm coming." [CHAR LIMIT=20] -->
+    <string name="phrase_im_coming">Rajeev Gandhi Cancer Institute</string>
+
+    <!-- Vocabulary phrase for "Let's go." [CHAR LIMIT=20] -->
+    <string name="phrase_lets_go">Sunder Lal Jain Hospital</string>
+
+    <!-- Vocabulary phrase for "Come here." [CHAR LIMIT=20] -->
+    <string name="phrase_come_here">Metro Heart Institute-RLKC Hospital</string>
+    <string name="action_search">Search</string>
+    <string-array name="linknorth">
+        <item>https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-shalimar-bagh</item>
+        <item>http://www.dhrc.in</item>
+        <item>http://www.fortishealthcare.com/india/hospitals-in-delhi-ncr/fortis-hospital-shalimar-bagh</item>
+        <item>http://www.ststephenshospital.org</item>
+        <item>http://www.sphdelhi.org/hospital/sph-civil-line/</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/Acharya+Shree+Bhikshu+Hospital/</item>
+        <item>http://delhi.gov.in/wps/wcm/connect/DOIT_DBSAH/dbsah/home</item>
+        <item>http://www.bhagwanmahavirhospital.com</item>
+        <item>http://www.mbh.delhigovt.nic.in</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/Sanjay+Gandhi+Memorial+Hospital/</item>
+    </string-array>
+    <string-array name="linksouth">
+        <item>http://www.aiims.edu/en.html</item>
+        <item>http://www.vmmc-sjh.nic.in</item>
+        <item>https://www.justdial.com/Delhi-NCR/Army-R-R-Hospital-Near-Dhaula-Kuan-Metro-Station-Dhaula-Kuan/011P56329_BZDET</item>
+        <item>https://www.ilbs.in</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/Pt.+Madan+Mohan+Malviya+Hospital/</item>
+        <item>https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket/</item>
+        <item>http://www.hfhdelhi.org</item>
+        <item>http://www.vimhanshospital.org</item>
+        <item>http://www.metrohospitals.com/group-hospitals/metro-hospital-heart-institute-lajpat-nagar-delhi</item>
+        <item>http://www.psrihospital.com</item>
+    </string-array>
+    <string-array name="linkeast">
+        <item>http://delhi.gov.in/wps/wcm/connect/DOIT_GTBH/gtbh/home</item>
+        <item>https://www.justdial.com/Delhi-NCR/Lal-Bahadur-Shastri-Hospital-Near-Kalyanvas-Colony-Khichripur-Mayur-Vihar-Phase-2/011P44_BZDET</item>
+        <item>http://www.dsci.nic.in/home.html</item>
+        <item>https://www.justdial.com/Delhi-NCR/Dr-Hedgewar-Aarogya-Sansthan-Near-Karkardooma-Court-Karkardooma/011P7202629_BZDET</item>
+        <item>http://www.rajivgandhisuperspecialityhospital.org</item>
+        <item>http://www.shantimukand.com</item>
+        <item>https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-patparganj</item>
+        <item>https://www.justdial.com/Delhi-NCR/Jeevan-Anmol-Hospital-Opposite-Pratap-Nagar-Mayur-Vihar-Phase-1/011P104987_BZDET</item>
+        <item>http://www.metrohospitals.com</item>
+        <item>http://www.rghospitals.com/hospitals/new-delhi/rg-hospital-gagan-vihar</item>
+    </string-array>
+    <string-array name="linkwest">
+        <item>http://delhi.gov.in/wps/wcm/connect/DOIT_DDUH/dduh/home</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/Attar+Sain+Jain+Eye/</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/Guru+Gobind+Singh+Hospital/</item>
+        <item>http://delhi.gov.in/wps/wcm/connect/DoIT_RTRMH/doit_rtrmh/home</item>
+        <item>http://www.delhi.gov.in/wps/wcm/connect/doit_health/Health/Home/Hospitals/SRHC+Hospital/</item>
+        <item>http://www.actionhospital.in</item>
+        <item>https://mahdelhi.org</item>
+        <item>http://www.rgcirc.org</item>
+        <item>http://www.slmhospital.com</item>
+        <item>http://www.metrohospitals.com/contact-us</item>
+    </string-array>
+    <string-array name="northcall">
+        <item>011 6642 2222</item>
+    </string-array>
+
+</resources>

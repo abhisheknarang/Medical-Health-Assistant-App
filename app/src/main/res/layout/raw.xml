@@ -1,0 +1,74 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lvh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:background="#ffb6ffb0"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.92"
+            android:background="#ffc5ffe3"
+            android:gravity="center"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:background="#ffd3f5ff"
+            android:gravity="center"
+            android:text="phone"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffd3f5ff"
+            android:gravity="center"
+            android:text="email"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/pw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.07"
+            android:background="#ffd3f5ff"
+            android:gravity="center"
+            android:text="password"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harshitbansal.selectcategory.derma">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Sanjiv Kandhari"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t1"
+                android:layout_alignStart="@+id/t1"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView142" />
+
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i1"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i2"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/i1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/i2"
+                android:layout_toRightOf="@+id/i2"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/t1"
+                android:layout_alignStart="@+id/t1"
+                android:layout_alignTop="@+id/i2"
+                android:text="MBBS,MD"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Kandhans Skin clinic"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i3"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:id="@+id/textView2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="Plot No-20 , Basement, Landmark:
+Near Moolchand Metro Station,
+National Park Road ,New Delhi-24"
+                android:layout_below="@+id/i3"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:id="@+id/textView36" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView142"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:background="#a1efa5"
+                android:onClick="sanjivk"
+                android:text="BOOK" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Geetika Mittal"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t2"
+                android:layout_alignStart="@+id/t2"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i4"
+                android:layout_toRightOf="@+id/i5"
+                android:layout_toEndOf="@+id/i5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,DIploma,Certification"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:id="@+id/text2"
+                android:layout_alignTop="@+id/i5"
+                android:layout_alignLeft="@+id/t2"
+                android:layout_alignStart="@+id/t2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="International skin Centre"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i6"
+                android:layout_alignLeft="@+id/text2"
+                android:layout_alignStart="@+id/text2"
+                android:id="@+id/textView143" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="B-1/72, Landmark: Near Janakpuri
+East Metro Station,Janak puri,New
+Delhi-110058"
+                android:layout_below="@+id/i6"
+                android:layout_alignLeft="@+id/text2"
+                android:layout_alignStart="@+id/text2"
+                android:id="@+id/textView38" />
+
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i4"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i5"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView37"
+                android:layout_toEndOf="@+id/textView143"
+                android:layout_toRightOf="@+id/textView143"
+                android:background="#a1efa5"
+                android:onClick="geetikam"
+                android:text="BOOK" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Nivedita Dadu"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t3"
+                android:layout_alignStart="@+id/t3"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView39" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i7"
+                android:layout_toRightOf="@+id/i8"
+                android:layout_toEndOf="@+id/i8" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,Diploma,DNB"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:id="@+id/text3"
+                android:layout_alignTop="@+id/i8"
+                android:layout_alignLeft="@+id/t3"
+                android:layout_alignStart="@+id/t3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skinology Clinic"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i9"
+                android:layout_alignLeft="@+id/text3"
+                android:layout_alignStart="@+id/text3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="Street No -13, Landmark:
+opposite Metro Pillar No - 208, Main
+Patel Road ,Ranjeet Nagar,Patel Nagar
+New Delhi - 110008"
+                android:layout_below="@+id/i9"
+                android:layout_alignLeft="@+id/t3"
+                android:layout_alignStart="@+id/t3" />
+
+
+
+            <ImageView
+                android:id="@+id/i7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i7"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i8"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/t3"
+                android:layout_toEndOf="@+id/textView39"
+                android:layout_toRightOf="@+id/textView39"
+                android:background="#a1efa5"
+                android:onClick="niveditad"
+                android:text="BOOK" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Pritam Pankaj"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t4"
+                android:layout_alignStart="@+id/t4"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView40" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i10"
+                android:layout_toRightOf="@+id/i11"
+                android:layout_toEndOf="@+id/i11" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,MD"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i11"
+                android:layout_alignLeft="@+id/t4"
+                android:layout_alignStart="@+id/t4"
+                android:id="@+id/text4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mata Chanan Devi Hospital"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i12"
+                android:layout_alignLeft="@+id/text4"
+                android:layout_alignStart="@+id/text4"
+                android:id="@+id/textView3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="WZ - 356A ,Sai Mandir
+,New Delhi,Delhi-110028"
+
+                android:layout_below="@+id/i12"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3" />
+
+            <ImageView
+                android:id="@+id/i10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i11"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/t4"
+                android:layout_toEndOf="@+id/textView40"
+                android:layout_toRightOf="@+id/textView40"
+                android:background="#a1efa5"
+                android:onClick="pritamp"
+                android:text="BOOK" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Amrendra Kumar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t5"
+                android:layout_alignStart="@+id/t5"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView144" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i13"
+                android:layout_toRightOf="@+id/i14"
+                android:layout_toEndOf="@+id/i14" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,MD"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:id="@+id/text5"
+                android:layout_alignTop="@+id/i14"
+                android:layout_alignLeft="@+id/t5"
+                android:layout_alignStart="@+id/t5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Derma Clinic"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i15"
+                android:layout_alignLeft="@+id/text5"
+                android:layout_alignStart="@+id/text5"
+                android:id="@+id/textView4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="A - 98, Landmark: Near Jail Road,
+Fateh Nagar , New Delhi - 110018"
+                android:layout_below="@+id/i15"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:id="@+id/textView41" />
+
+            <ImageView
+                android:id="@+id/i13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i13"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i15"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i14"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView144"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:background="#a1efa5"
+                android:onClick="amrendrak"
+                android:text="BOOK" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Nirupama"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t6"
+                android:layout_alignStart="@+id/t6"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Cosmetology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i16"
+                android:layout_toRightOf="@+id/i17"
+                android:layout_toEndOf="@+id/i17" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,MD"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i17"
+                android:layout_alignLeft="@+id/t6"
+                android:layout_alignStart="@+id/t6"
+                android:id="@+id/text6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zolie Skin Clinic"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i18"
+                android:layout_alignLeft="@+id/text6"
+                android:layout_alignStart="@+id/text6"
+                android:id="@+id/textView5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="G-28/101 , Sir Chotu Ram Clinic
+Landmark:Near Mother Divine Public
+School ,Sector - 3,Rohini,New Delhi-110085"
+                android:layout_below="@+id/i18"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5" />
+
+
+            <ImageView
+                android:id="@+id/i16"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i17"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i16"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i18"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i17"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView42"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="#a1efa5"
+                android:onClick="nirupama"
+                android:text="BOOK" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Avinash Sharma"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t7"
+                android:layout_alignStart="@+id/t7"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i19"
+                android:layout_toRightOf="@+id/i20"
+                android:layout_toEndOf="@+id/i20" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBBS,MD"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i20"
+                android:layout_alignLeft="@+id/t7"
+                android:layout_alignStart="@+id/t7"
+                android:id="@+id/text7"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medanta - The Medicity"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/i21"
+                android:layout_alignLeft="@+id/text7"
+                android:layout_alignStart="@+id/text7"
+                android:id="@+id/textView6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#222222"
+                android:text="Ch. Bakhtawar Singh Road , Landmark:
+Near Rajiv Chowk,Sector - 38 ,Gurgaon, Haryana-122001"
+                android:layout_below="@+id/i21"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_alignStart="@+id/textView6" />
+
+
+            <ImageView
+                android:id="@+id/i19"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i20"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i19"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i20"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/t7"
+                android:layout_toEndOf="@+id/t7"
+                android:layout_toRightOf="@+id/t7"
+                android:background="#a1efa5"
+                android:onClick="avinash"
+                android:text="BOOK" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="7dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dr. Tapesh Sharma"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/t8"
+                android:layout_alignStart="@+id/t8"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="27dp"
+                android:id="@+id/textView43" />
+
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/i22"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/i23"
+                android:layout_toRightOf="@+id/i23"
+                android:text="Specializes in Dermatology"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/t8"
+                android:layout_alignStart="@+id/t8"
+                android:layout_alignTop="@+id/i23"
+                android:text="BAMS"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text8"
+                android:layout_alignStart="@+id/text8"
+                android:layout_alignTop="@+id/i24"
+                android:text="Twacha Skin and hair Clinic"
+                android:textColor="#222222"
+                android:textSize="18sp"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/14 ,Ground Floor,Landmark: opp.
+Metro Pillar No. 173 ,Main Road
+East Patel Nagar,New delhi -110008"
+                android:textColor="#222222"
+                android:textSize="14sp"
+                android:layout_below="@+id/i24"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_alignStart="@+id/textView7" />
+
+
+            <ImageView
+                android:id="@+id/i22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="112dp"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:id="@+id/i23"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/i22"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hat" />
+
+            <ImageView
+                android:id="@+id/i24"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/i23"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/hospital" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView43"
+                android:layout_toEndOf="@+id/t8"
+                android:layout_toRightOf="@+id/t8"
+                android:background="#a1efa5"
+                android:onClick="tipesh"
+                android:text="BOOK" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
