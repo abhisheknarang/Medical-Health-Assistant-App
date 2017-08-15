@@ -105,6 +105,10 @@ public class slider extends AppCompatActivity
             startActivity(i);
 
         }else if (id==R.id.nav_feed){
+         Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.addCategory(Intent.CATEGORY_BROWSABLE);
+            intent.setData(Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScBuFxXvcpvyweRgvPGMCVdCa8g6RR9QsawpNexjFke5XSLyQ/viewform?usp=sf_link"));
+            startActivity(intent);
 
         }else if (id==R.id.nav_call){
             Toast.makeText(slider.this,"Call Us At 1800911233", Toast.LENGTH_LONG).show();
