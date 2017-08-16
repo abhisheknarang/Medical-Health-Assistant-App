@@ -366,6 +366,15 @@ New Delhi - 110008"
                 android:background="#a1efa5"
                 android:onClick="nitika"
                 android:text="BOOK" />
+				
+				<ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/pic4"
+                android:layout_alignBottom="@+id/button4"
+                android:layout_alignLeft="@+id/i7"
+                android:layout_alignStart="@+id/i8" />
 
 
         </RelativeLayout>
