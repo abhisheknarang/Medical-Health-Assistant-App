@@ -705,8 +705,8 @@ School ,Sector - 3,Rohini,New Delhi-110085"
                 android:text="BOOK" />
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 app:srcCompat="@drawable/pic96"
                 android:layout_alignBottom="@+id/button92"
                 android:layout_alignLeft="@+id/i16"
