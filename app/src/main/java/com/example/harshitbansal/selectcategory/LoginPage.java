@@ -56,7 +56,7 @@ public class LoginPage extends AppCompatActivity {
             };
             Handler pdCanceller = new Handler();
             pdCanceller.postDelayed(progressRunnable, 3000);
-            Intent i = new Intent(LoginPage.this, slider.class);
+            Intent i = new Intent(LoginPage.this,slider.class);
             startActivity(i);
         }
         else{
