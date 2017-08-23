@@ -366,17 +366,15 @@ New Delhi - 110008"
                 android:background="#a1efa5"
                 android:onClick="nitika"
                 android:text="BOOK" />
-				
-				<ImageView
+
+            <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/pic3"
                 android:layout_alignBottom="@+id/button4"
                 android:layout_alignLeft="@+id/i7"
-                android:layout_alignStart="@+id/i8" />
-
-
+                android:layout_alignStart="@+id/i8"
+                app:srcCompat="@drawable/pic3" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -487,12 +485,12 @@ Delhi-110028"
                 android:text="BOOK" />
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 app:srcCompat="@drawable/pic4"
-                android:layout_alignBottom="@+id/button7"
+                android:layout_above="@+id/t4"
                 android:layout_alignLeft="@+id/i10"
-                android:layout_alignStart="@+id/i11" />
+                android:layout_alignStart="@+id/i10" />
         </RelativeLayout>
 
         <RelativeLayout
