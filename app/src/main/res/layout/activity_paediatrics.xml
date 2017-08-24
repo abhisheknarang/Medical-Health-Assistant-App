@@ -124,9 +124,9 @@ Rohtak Road,karol bagh
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/pic89"
-                android:layout_alignBottom="@+id/button2"
+                android:layout_above="@+id/t1"
                 android:layout_alignLeft="@+id/i1"
-                android:layout_alignStart="@+id/i2" />
+                android:layout_alignStart="@+id/i1" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -705,9 +705,9 @@ School ,Sector - 3,Rohini,New Delhi-110085"
                 android:text="BOOK" />
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:srcCompat="@drawable/pic96"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/pic94"
                 android:layout_alignBottom="@+id/button92"
                 android:layout_alignLeft="@+id/i16"
                 android:layout_alignStart="@+id/i17" />
@@ -824,7 +824,7 @@ Near Rajiv Chowk,Sector - 38 ,Gurgaon, Haryana-122001"
                 android:id="@+id/imageView7"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                app:srcCompat="@drawable/pic94"
+                app:srcCompat="@drawable/pic95"
                 android:layout_alignBottom="@+id/button93"
                 android:layout_alignLeft="@+id/i19"
                 android:layout_alignStart="@+id/i20" />
@@ -944,9 +944,9 @@ East Patel Nagar,New delhi -110008"
                 android:text="BOOK" />
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:srcCompat="@drawable/pic95"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/pic96"
                 android:layout_alignBottom="@+id/button94"
                 android:layout_alignLeft="@+id/i22"
                 android:layout_alignStart="@+id/i23" />
