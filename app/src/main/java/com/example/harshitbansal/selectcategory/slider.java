@@ -97,7 +97,9 @@ public class slider extends AppCompatActivity
             Intent i = new Intent(slider.this, BaseHospital.class);
             startActivity(i);
 
-        }else if (id==R.id.nav_directions){
+        }else if (id==R.id.nav_pill){
+            Intent i = new Intent(slider.this, AlarmMe.class);
+            startActivity(i);
 
         }else if (id==R.id.nav_about){
 
@@ -105,7 +107,7 @@ public class slider extends AppCompatActivity
             startActivity(i);
 
         }else if (id==R.id.nav_feed){
-         Intent intent = new Intent(Intent.ACTION_VIEW);
+            Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_BROWSABLE);
             intent.setData(Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScBuFxXvcpvyweRgvPGMCVdCa8g6RR9QsawpNexjFke5XSLyQ/viewform?usp=sf_link"));
             startActivity(intent);

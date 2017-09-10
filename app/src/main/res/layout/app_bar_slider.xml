@@ -6,171 +6,171 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    tools:context="com.example.harshitbansal.selectcategory.slider">
-
-    <android.support.design.widget.AppBarLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        android:id="@+id/appBarLayout5">
+        android:layout_height="match_parent"
 
-    </android.support.design.widget.AppBarLayout>
+        tools:context="com.example.harshitbansal.selectcategory.slider">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        app:backgroundTint="@android:color/holo_blue_bright"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        android:layout_marginRight="17dp"
-        android:layout_marginBottom="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="17dp" />
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:id="@+id/appBarLayout5">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/appBarLayout5"
-        android:background="#4A312A"/>
+        </android.support.design.widget.AppBarLayout>
 
-/>
-    <ViewFlipper
-        android:id="@+id/viewflipper"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:autoStart="true"
-        android:flipInterval="2000"
-        android:layout_below="@+id/toolbar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:srcCompat="@android:drawable/ic_search_category_default"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp" />
 
-        <ImageView
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/appBarLayout5"
+            android:background="#4A312A"/>
+
+        />
+        <ViewFlipper
+            android:id="@+id/viewflipper"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:src="@drawable/user6"
-            android:scaleType="fitXY"/>
-        <ImageView
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/user6"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/user7"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/user8"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/user9"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/user10"
+                android:scaleType="fitXY"/>
+
+        </ViewFlipper>
+        <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:src="@drawable/user7"
-            android:scaleType="fitXY"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/user8"
-            android:scaleType="fitXY"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/user9"
-            android:scaleType="fitXY"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/user10"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="0dp"
+            android:background="#333232"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
 
-    </ViewFlipper>
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginTop="0dp"
-        android:background="#333232"
-        android:layout_below="@+id/textView6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="eatingHabits"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user20" />
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginLeft="10dp"
-                android:onClick="eatingHabits"
-                android:scaleType="fitXY"
-                android:src="@drawable/user20" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="kidneyStones"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user21" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="dengueFever"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user22" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="exercise"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user23" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="hairLoss"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user24" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="acidity"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user25" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="skinCancer"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user26" />
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="steroids"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user27" />
 
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="kidneyStones"
-                android:scaleType="fitXY"
-                android:src="@drawable/user21" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="dengueFever"
-                android:scaleType="fitXY"
-                android:src="@drawable/user22" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="exercise"
-                android:scaleType="fitXY"
-                android:src="@drawable/user23" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="hairLoss"
-                android:scaleType="fitXY"
-                android:src="@drawable/user24" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="acidity"
-                android:scaleType="fitXY"
-                android:src="@drawable/user25" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="30dp"
-                android:onClick="skinCancer"
-                android:scaleType="fitXY"
-                android:src="@drawable/user26" />
-            <ImageButton
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="10dp"
-                android:onClick="steroids"
-                android:scaleType="fitXY"
-                android:src="@drawable/user27" />
+            </LinearLayout>
+        </HorizontalScrollView>
 
-        </LinearLayout>
-    </HorizontalScrollView>
 
-   
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="200dp"
-        android:text="Health Articles"
-        android:textSize="30dp"
-        android:background="#bcbaba"
-        android:textColor="#222222"
-        android:textStyle="bold"
-        android:layout_below="@+id/viewflipper"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:text="Health Articles"
+            android:textSize="30dp"
+            android:background="#bcbaba"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:layout_below="@+id/viewflipper"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
 </ScrollView>

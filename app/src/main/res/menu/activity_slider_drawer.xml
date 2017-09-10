@@ -16,9 +16,9 @@
             android:icon="@drawable/ic_menu_build"
             android:title="Hospitals" />
         <item
-            android:id="@+id/nav_directions"
-            android:icon="@drawable/ic_menu_directions"
-            android:title="Nearby Medical Stores" />
+            android:id="@+id/nav_pill"
+            android:icon="@drawable/ic_add_pill"
+            android:title="Pill Reminder" />
 
         <item
             android:id="@+id/nav_about"
