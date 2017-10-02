@@ -18,15 +18,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class slider extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+import com.google.android.youtube.player.YouTubeBaseActivity;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayer.Provider;
+import com.google.android.youtube.player.YouTubePlayerView;
 
+public class slider extends YouTubeBaseActivity
+        implements NavigationView.OnNavigationItemSelectedListener, YouTubePlayer.OnInitializedListener {
+
+    private static final int RECOVERY_REQUEST = 1;
+    private YouTubePlayerView youTubeView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+      //  setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +44,9 @@ public class slider extends AppCompatActivity
                 startActivity(i);
             }
         });
+
+        youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
+        youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -107,7 +118,7 @@ public class slider extends AppCompatActivity
             startActivity(i);
 
         }else if (id==R.id.nav_feed){
-            Intent intent = new Intent(Intent.ACTION_VIEW);
+         Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_BROWSABLE);
             intent.setData(Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScBuFxXvcpvyweRgvPGMCVdCa8g6RR9QsawpNexjFke5XSLyQ/viewform?usp=sf_link"));
             startActivity(intent);
@@ -170,5 +181,35 @@ public class slider extends AppCompatActivity
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
         intent.setData(Uri.parse("http://drugabuse.com/library/the-effects-of-steroid-use/"));
         startActivity(intent);
+    }
+
+
+    @Override
+    public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
+        if (!wasRestored) {
+            player.cueVideo("_N-3vSI-2PU");
+        }
+    }
+
+    @Override
+    public void onInitializationFailure(Provider provider, YouTubeInitializationResult errorReason) {
+        if (errorReason.isUserRecoverableError()) {
+            errorReason.getErrorDialog(this, RECOVERY_REQUEST).show();
+        } else {
+            String error = String.format(getString(R.string.player_error), errorReason.toString());
+            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == RECOVERY_REQUEST) {
+            // Retry initialization if user performed a recovery action
+            getYouTubePlayerProvider().initialize(Config.YOUTUBE_API_KEY, this);
+        }
+    }
+
+    protected Provider getYouTubePlayerProvider() {
+        return youTubeView;
     }
 }
