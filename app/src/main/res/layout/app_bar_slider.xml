@@ -44,6 +44,7 @@
             android:background="#4A312A"/>
 
         />
+
         <ViewFlipper
             android:id="@+id/viewflipper"
             android:layout_width="match_parent"
@@ -81,6 +82,17 @@
                 android:scaleType="fitXY"/>
 
         </ViewFlipper>
+
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_below="@+id/viewflipper"
+            android:layout_marginTop="5dp"
+            />
+
+
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="150dp"
