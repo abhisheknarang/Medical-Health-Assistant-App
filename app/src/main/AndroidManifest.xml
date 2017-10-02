@@ -4,6 +4,17 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="24"
+        android:maxSdkVersion="24" />
+
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -27,18 +38,18 @@
             android:name=".ayurveda"
             android:label="Doctors"
             android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
-         <activity
+        <activity
             android:name=".paediatrics"
-             android:label=" Doctors"
-             android:parentActivityName=".MainActivity">
-             <meta-data
-                 android:name="android.support.PARENT_ACTIVITY"
-                 android:value=".MainActivity"/>
-         </activity>
+            android:label=" Doctors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".dental"
             android:label="Doctors"
@@ -228,7 +239,52 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".BaseHospital" />
         </activity>
+        <activity
+            android:name=".EditAlarm"
+            android:label="Set Reminder"
+            android:parentActivityName=".AlarmMe">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlarmMe"/>
+        </activity>
+
+        <activity
+            android:name=".AlarmNotification"
+            android:label="Alarm notification" />
+
+        <activity
+            android:name=".Preferences"
+            android:label="Checkup+">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlarmMe"/>
+        </activity>
+
+        <activity
+            android:name=".About"
+            android:label="Checkup+">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlarmMe"/>
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+
+        <receiver android:name=".BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".AlarmMe"
+            android:label="Checkup+"
+            android:parentActivityName=".slider">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".slider"/>
+        </activity>
     </application>
-
-
 </manifest>
